@@ -46,6 +46,8 @@ public static int add(int a, int b) {
 //			System.out.println("Div 2");
 //		}
 		
+//		long mob = 9657625865;
+		
 		String result = (marks>=500)? "div 1":"div 2";
 		System.out.println(result);
 		   

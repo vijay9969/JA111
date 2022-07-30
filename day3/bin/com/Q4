@@ -1,0 +1,28 @@
+Q4) Explain why the following block of code will give a compile time error?
+
+public class Main {
+public static void main(String[] args) {
+float f=3.3;
+System.out.println(f);
+}
+}
+
+=>1> In this code programmer taking a float f = 3.3.
+but compiler takes decimal value as double.
+
+2>always double using storage greater than float that the reason of coming error. 
+
+3>if you want converting value as float need to use of type_casting.
+
+4>float f = 3.3f. that is correct way to type_casting only for float.
+
+
+Correct code is: 
+
+	public class Main {
+		public static void main(String[] args) {
+				float f=3.3f;
+				System.out.println(f);
+		}
+	}
+
