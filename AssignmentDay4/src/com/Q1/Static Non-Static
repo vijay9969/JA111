@@ -1,0 +1,13 @@
+	Q1) Differentiate between static and non-static variables?
+	=>
+	A:- Static. 
+	1> A static variable acts as a global variable and is shared among all the objects of the class. 
+	2> Static variables occupies less space and memory allocation happens once. 
+	3> Static variables are shared among all instances of a class.  
+	4> Static variable is like a global variable and is available to all methods. 
+	
+	B:- Non-Static.
+	1> A non-static variables are specific to instance object in which they are created. 
+	2> A non-static variable may occupy more space.
+	3> Non static variables are specific to that instance of a class.
+	4> Non static variable is like a local variable and they can be accessed through only instance of a class.
